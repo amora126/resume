@@ -8,8 +8,3 @@ app = Flask(__name__)
 @app.route('/')
 def resume():
     return render_template("index.html")
-
-#start our application
-if __name__ == "__main__":
-    app.run(debug=True, port=3040) 
-    
